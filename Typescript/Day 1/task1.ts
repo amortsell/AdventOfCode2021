@@ -3,7 +3,7 @@
 import * as fs  from 'fs';
 
 let lines: string[] = []; 
-const text = fs.readFileSync('Day 1/input.txt', 'utf8').toString();
+const text = fs.readFileSync('Input/Day 1.txt', 'utf8').toString();
 lines.push(...text.split('\n'));
 console.log(lines);
 let count = 0;

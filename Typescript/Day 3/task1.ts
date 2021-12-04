@@ -2,7 +2,7 @@
 
 import * as fs  from 'fs';
 
-const text = fs.readFileSync('Day 3/input.txt', 'utf8').toString();
+const text = fs.readFileSync('Input/Day 3.txt', 'utf8').toString();
 const lines = [...text.split('\r\n')];
 let epsilon = 0;
 let gamma = 0;

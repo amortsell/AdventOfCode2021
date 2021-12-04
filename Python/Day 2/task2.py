@@ -1,4 +1,4 @@
-file = open("C:\\Source\\amortsell\\AdventOfCode2021\\Day 2\\input.txt", "r")
+file = open("C:\\Source\\amortsell\\AdventOfCode2021\\Input\\Day 2.txt", "r")
 lines = file.readlines()
 
 class Direction(object):

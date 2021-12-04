@@ -1,4 +1,4 @@
-file = open("C:\\Source\\amortsell\\AdventOfCode2021\\Day 3\\input.txt", "r")
+file = open("C:\\Source\\amortsell\\AdventOfCode2021\\Input\\Day 3.txt", "r")
 lines = file.readlines()
 
 def getValidLines(lines, comparison):

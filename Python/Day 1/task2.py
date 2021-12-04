@@ -1,4 +1,4 @@
-file = open("C:\\Source\\amortsell\\AdventOfCode2021\\Day 1\\input.txt", "r")
+file = open("C:\\Source\\amortsell\\AdventOfCode2021\\Input\\Day 1.txt", "r")
 lines = file.readlines()
 
 def arrSum(arr):

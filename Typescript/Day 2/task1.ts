@@ -5,7 +5,7 @@ import { Instruction } from './Models/Instruction';
 import { Position } from './Models/Position';
 
 let instructions: Array<Instruction> = []; 
-const text = fs.readFileSync('Day 2/input.txt', 'utf8').toString();
+const text = fs.readFileSync('Input/Day 2.txt', 'utf8').toString();
 const lines = [...text.split('\n')];
 instructions.push(...lines.map(l => { return { action: l.split(' ')[0], length: parseInt(l.split(' ')[1])}; }));
 
